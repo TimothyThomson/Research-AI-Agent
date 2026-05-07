@@ -11,6 +11,22 @@ ResearchMind is a multi-agent AI research system built with LangChain and Stream
 - Streamlit UI for running the full pipeline in the browser
 - CLI pipeline for terminal-based research runs
 
+## Tools and Frameworks Used
+
+- Python: Main programming language for the application and research pipeline
+- Streamlit: Web framework used to build the browser-based user interface
+- LangChain: Agent and chain framework used for search, reading, writing, and critique workflows
+- LangChain OpenAI: Integration layer for connecting LangChain with OpenAI models
+- OpenAI API: LLM provider used to generate, refine, and critique research reports
+- Tavily API: Web search tool used to collect relevant online research sources
+- Beautiful Soup, Requests, lxml, and html5lib: Web scraping and HTML parsing tools
+- python-dotenv: Loads local environment variables from the `.env` file
+- pandas: Data handling utility for pipeline and analysis workflows
+- tiktoken: Token counting and text utility support
+- rich: Terminal logging and debugging output
+- tenacity: Retry handling for more robust API and network operations
+- pydantic and orjson: Data validation and fast JSON handling
+
 ## Project Structure
 
 ```text
